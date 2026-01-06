@@ -9,7 +9,7 @@ const Home: React.FC = () => {
     <section
       id="home"
       className="relative min-h-screen flex flex-col justify-center items-center px-6 bg-cover bg-center bg-no-repeat"
-      style={{ backgroundImage: 'url("/src/assets/me1.jpg")' }}
+      style={{ backgroundImage: 'url("/assets/me1.jpg")' }}
     >
       {/* Overlay hitam blur di belakang */}
       <div

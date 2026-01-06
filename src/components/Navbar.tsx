@@ -25,7 +25,6 @@ const Navbar: React.FC = () => {
           <li><a href="#about" className="hover:text-blue-400">About</a></li>
           <li><a href="#projects" className="hover:text-blue-400">Projects</a></li>
           <li><a href="#cv" className="hover:text-blue-400">Download CV</a></li>
-          <li><a href="#cv" className="hover:text-blue-400">Lanyard</a></li>
           <li><a href="#contact" className="hover:text-blue-400">Contact</a></li>
         </ul>
 
@@ -45,7 +44,6 @@ const Navbar: React.FC = () => {
           <li><a href="#about" onClick={() => setIsOpen(false)}>About</a></li>
           <li><a href="#projects" onClick={() => setIsOpen(false)}>Projects</a></li>
           <li><a href="#cv" onClick={() => setIsOpen(false)}>Download CV</a></li>
-          <li><a href="#lanyard" onClick={() => setIsOpen(false)}>Lanyard</a></li>
           <li><a href="#contact" onClick={() => setIsOpen(false)}>Contact</a></li>
         </ul>
       )}

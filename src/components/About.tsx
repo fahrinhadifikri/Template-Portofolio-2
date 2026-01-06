@@ -6,9 +6,9 @@ import '@fontsource/roboto/700.css';
 
 const About: React.FC = () => {
   const images = [
-    "/src/assets/me-landscape.jpg",
-    "/src/assets/me-landscape2.jpg",
-    "/src/assets/me-landscape3.jpg",
+    "/assets/me-landscape.jpg",
+    "/assets/me-landscape2.jpg",
+    "/assets/me-landscape3.jpg",
   ];
 
   const [index, setIndex] = useState(0);
@@ -37,14 +37,14 @@ const About: React.FC = () => {
         {/* Kiri: Logo + Deskripsi */}
         <div className="flex-1 text-left">
           <div className="flex flex-wrap justify-start items-center gap-6 mb-8">
-            <img src="/src/assets/laravel.png" alt="Laravel" className="w-12 h-12 object-contain" />
-            <img src="/src/assets/react.png" alt="React" className="w-12 h-12 object-contain" />
-            <img src="/src/assets/figma.png" alt="Figma" className="w-12 h-12 object-contain" />
-            <img src="/src/assets/canva.png" alt="Canva" className="w-12 h-12 object-contain" />
-            <img src="/src/assets/photoshop.png" alt="Photoshop" className="w-12 h-12 object-contain" />
-            <img src="/src/assets/illustrator.png" alt="Illustrator" className="w-12 h-12 object-contain" />
-            <img src="/src/assets/premiere.png" alt="Premiere Pro" className="w-12 h-12 object-contain" />
-            <img src="/src/assets/aftereffects.png" alt="After Effects" className="w-12 h-12 object-contain" />
+            <img src="/assets/laravel.png" alt="Laravel" className="w-12 h-12 object-contain" />
+            <img src="/assets/react.png" alt="React" className="w-12 h-12 object-contain" />
+            <img src="/assets/figma.png" alt="Figma" className="w-12 h-12 object-contain" />
+            <img src="/assets/canva.png" alt="Canva" className="w-12 h-12 object-contain" />
+            <img src="/assets/photoshop.png" alt="Photoshop" className="w-12 h-12 object-contain" />
+            <img src="/assets/illustrator.png" alt="Illustrator" className="w-12 h-12 object-contain" />
+            <img src="/assets/premiere.png" alt="Premiere Pro" className="w-12 h-12 object-contain" />
+            <img src="/assets/aftereffects.png" alt="After Effects" className="w-12 h-12 object-contain" />
           </div>
 
           <h2 className="text-3xl font-bold mb-4">Tentang Saya</h2>

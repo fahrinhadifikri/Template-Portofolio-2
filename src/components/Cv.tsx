@@ -12,7 +12,7 @@ const Cv: React.FC = () => {
       {/* Background blur pakai gambar */}
       <div
         className="absolute inset-0 bg-cover bg-center"
-        style={{ backgroundImage: "url('/src/assets/cv-background.png')" }}
+        style={{ backgroundImage: "url('/assets/cv-background.png')" }}
       ></div>
 
       {/* Overlay gelap pakai rgba (bukan class tailwind) */}
@@ -29,14 +29,14 @@ const Cv: React.FC = () => {
 
         <div className="w-full">
           <img
-            src="/src/assets/cv-preview.jpg"
+            src="/assets/cv-preview.jpg"
             alt="CV Preview"
             className="w-full rounded-lg shadow-lg"
           />
         </div>
 
         <a
-          href="/src/assets/CV-fahrin.pdf"
+          href="/assets/CV-fahrin.pdf"
           download
           className="mt-8 inline-block bg-blue-500 hover:bg-blue-600 text-white font-semibold py-3 px-6 rounded-lg shadow-md transition"
         >
